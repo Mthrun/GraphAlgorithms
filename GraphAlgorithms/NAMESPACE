@@ -1,0 +1,14 @@
+exportPattern("^[[:alpha:]]+")
+
+import(Rcpp)
+import(plotly)
+
+importFrom("graphics", "axis", "box", "par", "plot", "title")
+importFrom("utils", "install.packages")
+importFrom("stats", "dist")
+importFrom("deldir", "deldir","tile.list")
+importFrom("parallelDist", "parallelDist")
+
+
+useDynLib(GraphAlgorithms)
+

@@ -1,0 +1,13 @@
+Package: GraphAlgorithms
+Type: Package
+Title: Graph Algorithms Computations
+Version: 1.0.2
+Date: 2023-04-27
+Author: Michael Thrun, Florian Lerch, Rabea Griese, Alfred Ultsch
+Maintainer: Michael Thrun <mthrun@mathematik.uni-marburg.de>
+Description: Computes all graphs and plots them, e.g. Gabriel graph with empty ball condition or by deleting edges of the delaunay graph.
+Imports: Rcpp, deldir, plotly, parallelDist, DataVisualizations
+Suggests: cccd, spdep, igraph, geometry
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL
+LazyLoad: yes
